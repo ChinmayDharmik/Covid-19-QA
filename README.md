@@ -29,7 +29,7 @@ The system follows a multi-stage pipeline to process a user query and generate a
 5. **Answer Generation**: The extracted snippet is converted into a full sentence. This is achieved by masking the "wh-" word (like "what" or "who") in the original question and using the `bart-large-cnn` model to generate a complete statement[^1].
 6. **Voice Output**: If requested by the user, the final answer sentence is converted to speech[^1].
 
-[image:1]
+![alt text](Architecture.png)
 
 ## Dataset
 
