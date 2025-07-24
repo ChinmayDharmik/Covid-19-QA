@@ -1,0 +1,13 @@
+torch                  
+transformers           
+scispacy               
+spacy                  
+pandas                 
+numpy                  
+pyttsx3                
+tqdm                   
+multiprocess           
+scikit-learn           
+requests               
+sentence-transformers  
+gensim                 
